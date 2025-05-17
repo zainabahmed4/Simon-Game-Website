@@ -29,7 +29,7 @@ simon-game/
 ### 🖥️ Option 1: Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zainabahmed4/simon-game-website.git
+   git clone https://github.com/zainabahmed4/Simon-Game-Website.git
    cd simon-game-website
 2. Open the index.html file in your browser.
 <br>
