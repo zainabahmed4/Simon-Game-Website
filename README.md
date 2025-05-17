@@ -30,7 +30,7 @@ simon-game/
 1. Clone the repository:
    ```bash
    git clone https://github.com/zainabahmed4/Simon-Game-Website.git
-   cd simon-game-website
+   cd Simon-Game-Website
 2. Open the index.html file in your browser.
 <br>
 <br>
