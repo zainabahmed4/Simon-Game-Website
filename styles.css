@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background: linear-gradient(135deg, #011F3F, #1B3B6F);
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 50px 0 0 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#level-title {
+  font-size: 3.5rem;
+  margin: 20px 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  line-height: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.btn {
+  margin: 15px;
+  height: 150px;
+  width: 150px;
+  border: none;
+  border-radius: 15%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.game-over {
+  background: linear-gradient(135deg, #FF0000, #8B0000);
+  opacity: 0.9;
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
+
+.red {
+  background: radial-gradient(circle, #FF4D4D, #B22222);
+}
+
+.green {
+  background: radial-gradient(circle, #32CD32, #006400);
+}
+
+.blue {
+  background: radial-gradient(circle, #1E90FF, #00008B);
+}
+
+.yellow {
+  background: radial-gradient(circle, #FFD700, #FFA500);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+  transform: scale(0.9);
+}
