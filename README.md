@@ -17,11 +17,11 @@ Welcome to the **Simon Memory Game** — a classic memory-based game built using
 - **CSS3**
 - **Vanilla JavaScript**
 
-## 📁 Project Structure
-simon-game/
-├── index.html
-├── styles.css
-├── script.js
+## 📁 Project Structure  
+simon-game/  
+├── index.html  
+├── styles.css  
+├── script.js  
 └── README.md
 
 ## 🚀 How to Run the Project
@@ -32,8 +32,8 @@ simon-game/
    git clone https://github.com/zainabahmed4/simon-game-website.git
    cd simon-game-website
 2. Open the index.html file in your browser.
-
-**What I Learned**
+<br>
+<br>
 Through this project, I practiced and reinforced:
 
 - JavaScript arrays, functions, and loops
